@@ -1,0 +1,52 @@
+{
+  "setup_1": {
+    "Operational Parameter": [ "Operational Parameter"],
+    "Operating Time": ["Operating Time"],
+    "Operating Temperature": ["Operating Temperature"],
+    "Operating Speed" : ["Operating Speed"],
+    "Operating Pressure": ["Operating Pressure"],
+    "Operating Load": ["Operating Load"],
+    "Operating Length": ["Operating Length"],
+    "Operating Humidity": ["Operating Humidity"],
+    "Operating Frequency": ["Operating Frequency"],
+    "Kinematic Parameter": ["Kinematic Parameter"],
+    "Kinematic Movement":["Kinematic Movement"],
+    "Kinematic Pattern": ["Kinematic Pattern"],
+    "Bodystructure": ["Bodystructure"],
+    "Material Specification": ["Material specification"],
+    "Part Specification": ["Part Specification"],
+    "Other Specification": ["Other Specification"],
+    "Composite Element": ["Composite Element"],
+    "Geometry": ["Geometry"],
+    "Geometry Dimension": ["Geometry dimension"],
+    "Environmental Medium": ["Environmental Medium"],
+    "Intermediate Medium": ["Intermediate Medium"],
+    "Manufacturing Process": ["Manufacturing Process"],
+    "Test Method": ["Test Method"]
+  },
+  "setup_2" : {
+    "Input Parameter": ["Kinematic Movement", "Kinematic Parameter", "Kinematic Pattern", "Operating Frequency", "Operating Humidity", "Operating Length", "Operating Load", "Operating Pressure", "Operating Speed", "Operating Temperature", "Operating Time", "Operational Parameter"],
+    "Bodystructure": ["Bodystructure"],
+    "Specification": ["Material specification", "Other Specification", "Part Specification"],
+    "Composite Element": ["Composite Element"],
+    "Geometry": ["Geometry"],
+    "Geometry Dimension": ["Geometry dimension"],
+    "Environmental Medium": ["Environmental Medium"],
+    "Intermediate Medium": ["Intermediate Medium"],
+    "Manufacturing Process": ["Manufacturing Process"],
+    "Test Method": ["Test Method"]
+  },
+  "setup_3" : {
+    "Operational Parameter": ["Operating Frequency", "Operating Humidity", "Operating Length", "Operating Load", "Operating Pressure", "Operating Speed", "Operating Temperature", "Operating Time", "Operational Parameter"],
+    "Kinematic Parameter": ["Kinematic Movement", "Kinematic Parameter", "Kinematic Pattern"],
+    "Bodystructure": ["Bodystructure"],
+    "Specification": ["Material specification", "Other Specification", "Part Specification"],
+    "Composite Element": ["Composite Element"],
+    "Geometry": ["Geometry"],
+    "Geometry Dimension": ["Geometry dimension"],
+    "Environmental Medium": ["Environmental Medium"],
+    "Intermediate Medium": ["Intermediate Medium"],
+    "Manufacturing Process": ["Manufacturing Process"],
+    "Test Method": ["Test Method"]
+  }
+}

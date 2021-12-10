@@ -1,0 +1,627 @@
+             "test_methode" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+
+                "FrictionMovementType" : {
+                    "describtion": "Type of movement of the friction partners",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Movement_State" : {
+                    "describtion": "Movement state at which some measurement were made",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Friction Condition" : {
+                    "describtion": "Type of Conditions for the Friction",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+
+                "Friction Force" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+
+                "Friction Torque" : {
+                    "describtion": "Type of movement of the friction partners",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Friction Work" : {
+                    "describtion": "Movement state at which some measurement were made",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Frictional Power" : {
+                    "describtion": "Type of Conditions for the Friction",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+
+                "Frictional Degree" : {
+                            "describtion": "Type of Conditions for the Friction",
+                            "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                            "answerQA" : "",
+                            "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                            "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                            "normalState" : "Unspecified",
+                            "answer": "",
+                  "dependend_Categories" : []
+                            },
+                "Frictional Temperature" : {
+                                "describtion": "Temperature induced through Friction",
+                                "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                                "answerQA" : "",
+                                "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                                "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                                "normalState" : "Unspecified",
+                                "answer": "",
+                  "dependend_Categories" : []
+                                }
+            }
+
+
+
+
+                                                        "behaviour" : {
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                },
+                "Behaviour_Manifestation" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "test_methode" : {
+                        "describtion": "Method that was used to identify the Wearparameters",
+                        "question" : ["What method was used to identify the wear [of VARIATION]?", "What method was used to detect wear [of VARIATION]?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "Unspecified",
+                        "answer": "",
+                  "dependend_Categories" : []
+                        },
+
+                "wear track" : {
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                },
+
+                "Amount of wear(linear)" : {
+                        "describtion": "Method with which friction is determined",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "Unspecified",
+                        "answer": "",
+                  "dependend_Categories" : []
+                        },
+                "Amount of wear(planimetric)" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Amount of wear(volumetric)" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "Amount of wear(mass)" : {
+                        "describtion": "Method with which friction is determined",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "Unspecified",
+                        "answer": "",
+                  "dependend_Categories" : []
+                        },
+                "Relative Amount of wear" : {
+                            "describtion": "Method with which friction is determined",
+                            "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                            "answerQA" : "",
+                            "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                            "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                            "normalState" : "Unspecified",
+                            "answer": "",
+                  "dependend_Categories" : []
+                            },
+                "Relative wear resistance" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+                "wear resistance" : {
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "Unspecified",
+                    "answer": "",
+                  "dependend_Categories" : []
+                    },
+
+
+
+
+{
+    "meta_information" : {
+        "goal": 
+        {"goal" : {  
+            "question" : ["What is the goal of this work?", "What is been investigated?", "What properties are investigated?"],
+            "answerQA" : "",
+            "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+            "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+            "normalState" : "continous",
+            "answer": ""
+            }
+        }
+    }
+    ,
+    
+    "input_parameter" : {
+        "kinetical_parameter" : 
+    
+            {"movement_pattern" : {  
+                "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                "answerQA" : "",
+                "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                "normalState" : "continous",
+                "answer": ""
+                },
+            "motion_type": {
+                "question" : ["What kind of motion was used during the test?", "What motional conditions have been used during the test?", "What type of motion have been used?"],
+                "answerQA" : "",
+                "expectedAnswerSpace": ["slid", "roll", "drill", "bump", "push"],
+                "preSearchSpace" : ["slid", "roll", "drill", "bump", "push", "movement", "tribometer",  "test"],
+                "normalState" : "Unknown",
+                "answer": ""
+                }
+    
+            },
+         
+        "operational_parameter" :  
+            
+    
+            {"normal_load" : {  
+                        "question" : ["What quantity was the normal load in Newton during the test?", "What quantity was the load in Newton?", "What force in Newton was used in the tribometer?", "How big was the Force in Netwon?", "What quantity was the force in Netwon?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ N"],
+                        "preSearchSpace" : [" N ", "Newton", "tribometer", "test"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+    
+            "pressure" : {  
+                        "question" : ["What quantity was the hertzian pressure in Pascal during the test?", "What quantity was the pressure in Pascal?",  "How big was the Pressure in Pascal?", "What quantity was the pressure?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ (G|M|k|m|)Pa"],
+                        "preSearchSpace" : [" Pa ", "Pascal", "tribometer", "pressure", "Hertzian Pressure",  "test"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+    
+            "velocity" : {  
+                    "question" : ["What quantity was the velocity has been used during the test?", "What quantity was the velocity in meter per second?", "What was the velocity?", "What quantity was the speed in meter per second?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ (k|m|)m( |)(/|per|)( |)(s|h|min)"],
+                    "preSearchSpace" : [" m/s ", "m/min", "tribometer", "velocity", "speed", "test"],
+                    "normalState" : "Unknown",
+                    "answer": ""
+                    },
+    
+            "distance" : {  
+                    "question" : ["What quantity was the distance during the test?", "What quantity was the distance in meter?", "What distance was covered during the test?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ (mm|cm|m|km)"],
+                    "preSearchSpace" : ["tribometer", "distance",  "test"],
+                    "normalState" : "Unknown",
+                    "answer": ""
+                    },
+         
+    
+         "temperature" : {  
+                        "question" : ["What quantity was the temperature during the test?", "What quantity was the temperature in degree Celsius?", "What was the temperature?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ (°C|K|C)"],
+                        "preSearchSpace" : [ "°C ", "tribometer", "Celsius", "temperature",  "test"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+         
+          "rel_humidity" : {  
+                        "question" : ["What quantity was the humidity during the test?", "What quantity was the rel. humidity in %?", "What was the humidity?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+"],
+                        "preSearchSpace" : ["humidity", "tribometer",  "test"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+         
+    
+         "testing_duration" : {  
+                        "question" : ["What was the test duration for the test?", "How many minutes went through the test?" , "How long did the test go on?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+ (min|h|s)"],
+                        "preSearchSpace" : ["tribometer", "min ",  "test"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+         
+          "rounds" : {  
+                        "question" : ["What was the quantity for rounds per minute?", "How many rounds have been run during the test?" , "How many rounds did the test go on?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["([0-9]{0,5}\\.|)[0-9]+"],
+                        "preSearchSpace" : [" r/min", "rpm",  "test", "rounds"],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        },
+         
+       
+            
+            "type_Radiation":{  
+                        "question" : ["What type of radiation occurred during the test??", "What kind of radiation occurred during the test?" , "What radiation was used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["electromagnetic", "thermal", "radioactive"],
+                        "preSearchSpace" : [" radiation "],
+                        "normalState" : "Unknown",
+                        "answer": ""
+                        }
+            }
+        
+    },
+    
+    
+        
+    "output_parameter" : {
+        "wear" : 
+            {
+                "behaviour" : {  
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                },
+                "Behaviour_Manifestation" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "test_methode" : {  
+                        "describtion": "Method with which friction is determined",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "continous",
+                        "answer": ""
+                        }
+            },
+            "wear_key_parameters" : 
+            {
+                "wear track" : {  
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                },
+    
+                "Amount of wear(linear)" : {  
+                        "describtion": "Method with which friction is determined",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "continous",
+                        "answer": ""
+                        },
+                "Amount of wear(planimetric)" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Amount of wear(volumetric)" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Amount of wear(mass)" : {  
+                        "describtion": "Method with which friction is determined",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "continous",
+                        "answer": ""
+                        },
+                "Relative Amount of wear" : {  
+                            "describtion": "Method with which friction is determined",
+                            "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                            "answerQA" : "",
+                            "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                            "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                            "normalState" : "continous",
+                            "answer": ""
+                            },
+                "Relative wear resistance" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "wear resistance" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "wear rate" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    }
+    
+                
+            },
+    
+        "friction" : 
+            {
+                "test_methode" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+    
+                "FrictionMovementType" : {  
+                    "describtion": "Type of movement of the friction partners",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Movement_State" : {  
+                    "describtion": "Movement state at which some measurement were made",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Friction Condition" : {  
+                    "describtion": "Type of Conditions for the Friction",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    }
+            },
+            "friction_key_parameters" : 
+            {
+                "Friction Force" : {  
+                    "describtion": "Method with which friction is determined",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+    
+                "Friction Torque" : {  
+                    "describtion": "Type of movement of the friction partners",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Friction Work" : {  
+                    "describtion": "Movement state at which some measurement were made",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Frictional Power" : {  
+                    "describtion": "Type of Conditions for the Friction",
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+                "Coefficent_of_Friction" : {  
+                        "describtion": "Type of Conditions for the Friction",
+                        "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                        "answerQA" : "",
+                        "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                        "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                        "normalState" : "continous",
+                        "answer": ""
+                        },
+                "Frictional Degree" : {  
+                            "describtion": "Type of Conditions for the Friction",
+                            "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                            "answerQA" : "",
+                            "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                            "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                            "normalState" : "continous",
+                            "answer": ""
+                            },
+                "Frictional Temperature" : {  
+                                "describtion": "Temperature induced through Friction",
+                                "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                                "answerQA" : "",
+                                "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                                "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                                "normalState" : "continous",
+                                "answer": ""
+                                }
+            }
+    
+    
+                                        
+    
+        },
+        
+    "geometry" : {
+        "microgeometry" : 
+    
+            {
+                "roughness" : {  
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                }
+            },
+        "macrogeometry" : 
+    
+            {
+                "bodytype" : {  
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    },
+    
+                "dimensions" : {  
+                    "question" : ["What movement pattern was used during the test?", "Under what movement conditions was the tribometer used?", "What movement pattern has been used?"],
+                    "answerQA" : "",
+                    "expectedAnswerSpace": ["intermittent", "continuous", "reciprocal", "oscillat"],
+                    "preSearchSpace" : ["intermittent", "continuous", "reciprocal", "oscillat", "movement", "tribometer", "test"],
+                    "normalState" : "continous",
+                    "answer": ""
+                    }
+    
+            }
+    
+                                        
+    
+        }
+    
+    }
+    
+    
+    

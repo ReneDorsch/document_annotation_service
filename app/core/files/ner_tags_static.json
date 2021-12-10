@@ -1,0 +1,84 @@
+{
+    "Normal_Load": {
+        "tags": [
+            "Normal load",
+            "load"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "NormalLoad"
+    },
+    "Hertzian_Pressure": {
+        "tags": [
+            "Pressure",
+            "Hertzian Pressure"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Pressure"
+    },
+
+    "Humidity": {
+        "tags":[
+            "relative Humidity",
+            "Humidity"
+        ],
+    "category": "InputAttribute",
+        "specific_category": "Humidity"
+    },
+    "Temperature": {
+        "tags":[
+            "Temperature"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Temperature"
+    },
+    "Frequency": {
+        "tags":[
+            "Frequency"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Frequency"
+    },
+    "FlowRate": {
+        "tags":[
+            "flow",
+            "flow rate"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "FlowRate"
+    },
+    "Speed": {
+        "tags":[
+            "speed",
+            "sliding speed"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Speed"
+    },
+    "Distance": {
+        "tags":[
+            "distance",
+            "length"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Distance"
+    },
+    "Duration": {
+        "tags":[
+            "hour",
+            "minute",
+            "second"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Duration"
+    },
+    "Rounds": {
+        "tags":[
+            "round",
+            "lap",
+            "iteration",
+            "cycle"
+        ],
+        "category": "InputAttribute",
+        "specific_category": "Rounds"
+    }
+}

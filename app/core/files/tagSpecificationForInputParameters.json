@@ -1,0 +1,15 @@
+{
+  "Temperature": ["° C", "K"],
+  "Round": ["rpm", "round"],
+  "Velocity": [
+        "km / s","km / min","km / h",
+    "m / s","m / min", "m / h",
+    "dm / s","dm / min", "dm / h",
+    "cm / s","cm / min", "cm / h",
+    "mm / s","mm / min", "mm / h"
+  ],
+  "Pressure"  : ["GPa", "MPa", "KPa", "Pa"],
+  "Frequency" : ["Hz"],
+  "NormalLoad" : ["N", "kN", "mN", "MN", "GN"],
+  "Length": ["m", "mm", "µm", "µm", "nm", "km"]
+}
