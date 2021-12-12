@@ -8,7 +8,7 @@ from ..datamodels.annotation_model import Annotation
 from ..datamodels.text_models import Sentence, Word, Text
 from typing import List, Tuple
 from ..apis.util_functions import NAMED_ENTITY_RECOGNITION_MODEL_PATH, TOKENIZER
-
+from app.core.config import ANNOTATION_SCORE
 
 class AnnotationStrategy(TransformationStrategy):
     NAMED_ENTITY_RECOGNITION_MODEL = SequenceTagger.load(NAMED_ENTITY_RECOGNITION_MODEL_PATH)
@@ -247,17 +247,19 @@ class AnnotationStrategy(TransformationStrategy):
             return span, wordList
 
         for span in flair_sentence.get_spans('ner'):
-            locationSpan: Tuple[int, int] = (min([x.start_pos for x in span.tokens]),
-                                             max([x.end_pos for x in span.tokens]))
-            wordList = sentence.get_words_of_span(locationSpan)
-            span, wordList = delete_paranthesis(span, wordList)
-            span, wordList = delete_figures_and_tables(span, wordList)
+            if span.score > ANNOTATION_SCORE:
 
-            if len(wordList) == 0:
-                continue
+                locationSpan: Tuple[int, int] = (min([x.start_pos for x in span.tokens]),
+                                                 max([x.end_pos for x in span.tokens]))
+                wordList = sentence.get_words_of_span(locationSpan)
+                span, wordList = delete_paranthesis(span, wordList)
+                span, wordList = delete_figures_and_tables(span, wordList)
 
-            anno = Annotation.create_model_annotation(span, wordList)
-            sentence.annotations.append(anno)
+                if len(wordList) == 0:
+                    continue
+
+                anno = Annotation.create_model_annotation(span, wordList)
+                sentence.annotations.append(anno)
 
     def set_manual_annotation(self, sentence: Sentence) -> None:
         for tag, attribute in MANUAL_NER_TAGS.items():

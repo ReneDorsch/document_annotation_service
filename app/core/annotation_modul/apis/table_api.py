@@ -74,17 +74,29 @@ class TableStrategy(TransformationStrategy):
         lines = table.lines
         units = table.units
 
+        number_of_elements_in_line: int = len(lines[0].cells)
 
+        for i in range(number_of_elements_in_line):
+            for column, name, unit in zip(lines, table_header.cells, units):
+                text: str = f"The {name.textInCell} has a value of {column.cells[i].textInCell}{unit if unit else ''}."
+                text = re.sub(" +", " ", text)
+                sentence = Sentence.from_table(
+                    sentence=text,
+                    table=table)
+                table.textual_representations.append(sentence)
+                #line.textual_representation = sentence
+
+        c = """
         for line in lines:
             for cell, name, unit in zip(line.cells, table_header.cells, units):
-                text: str = f"The {name.textInCell} has a value of {cell.textInCell}{' in ' + unit if unit else ''}."
+                text: str = f"The {name.textInCell} has a value of {cell.textInCell}{unit if unit else ''}."
                 text = re.sub(" +", " ", text)
                 sentence = Sentence.from_table(
                     sentence=text,
                     table=table)
                 table.textual_representations.append(sentence)
                 line.textual_representation = sentence
-
+        """
 
 
     def _get_list_of_table_units(self, lines: List[Union[Row, Column]]) -> List[str]:

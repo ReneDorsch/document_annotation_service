@@ -20,7 +20,7 @@ class KnowledgeObject:
         return io.KnowledgeObject(**{
             'id': self.knowObjID,
             'labels': [_ for _ in self.labels],
-            'category': self.category,
+            'category': self.specificCategory,
             'annotation_ids': [_.annotationID for _ in self.annotations]
         })
 
@@ -63,6 +63,7 @@ class KnowledgeObject:
 
             if counter == 0:
                 break
+
         return annotationsToDelete
 
     def _category_is_part_of_knowledgeObject(self, annotation: Annotation) -> bool:
@@ -80,14 +81,26 @@ class KnowledgeObject:
         :return:
         '''
 
-        normalized_annotation = " ".join(word.normalized_form for word in annotation.wordList)
-        if normalized_annotation in self._labels_normalized:
+        normalized_labels = [_.replace(" ", "") for _ in self._labels_normalized]
+        normalized_annotation = "".join(word.normalized_form for word in annotation.wordList)
+        is_normalized: bool = normalized_annotation in normalized_labels
+
+        simplified_labels = [_.replace(" ", "").lower() for _ in self.labels]
+        simplified_annotation = "".join(word.word.lower() for word in annotation.wordList)
+        is_simplified: bool = simplified_annotation in simplified_labels
+
+        if is_simplified or is_normalized:
             return True
-        if len(annotation.synonymicalAnnotations) > 0:
-            for synonymAnnotation in annotation.synonymicalAnnotations:
-                normalized_annotation = " ".join(word.normalized_form for word in synonymAnnotation.wordList)
-                if normalized_annotation in self._labels_normalized:
-                    return True
+
+        for synonymAnnotation in annotation.synonymicalAnnotations:
+            normalized_annotation = "".join(word.normalized_form for word in synonymAnnotation.wordList)
+            simplified_annotation = "".join(word.word.lower() for word in annotation.wordList)
+
+            is_simplified: bool = simplified_annotation in simplified_labels
+            is_normalized: bool = normalized_annotation in normalized_labels
+
+            if is_simplified or is_normalized:
+                return True
         return False
 
 
@@ -119,6 +132,7 @@ class KnowledgeObject:
         :param annotation:
         :return:
         '''
+
         if self.containsNumber(annotation):
             return self._annotation_is_part_of_knowledgeObject(annotation)
         elif len(annotation.label) < 4:

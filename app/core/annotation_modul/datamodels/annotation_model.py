@@ -31,7 +31,7 @@ class Annotation:
     def to_io(self) -> io.Annotation:
         return io.Annotation(**{
             'words': [_.to_io() for _ in self.wordList],
-            'category': self.category,
+            'category': self.specificCategory,
             'id': self.annotationID,
         })
     def saveAsDict(self):

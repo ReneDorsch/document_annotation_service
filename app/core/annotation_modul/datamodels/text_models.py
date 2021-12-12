@@ -249,6 +249,9 @@ class Word:
         self.tag_name = ""
         self.previous_word: Word = prevWord
         self.has_space_after_word = spaceAfterWord
+        self.next_word: Word = None
+        if self.previous_word:
+            self.previous_word.next_word = self
 
         Word.IDCounter += 1
 

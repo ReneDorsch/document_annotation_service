@@ -56,7 +56,8 @@ class Table:
             annotations.extend(sentence.annotations)
         annotations = list(set(annotations))
 
-        for line in self.lines:
+        lines = self.lines + [self.table_header]
+        for line in lines:
             cells.extend(line.cells)
 
         for annotation in annotations:

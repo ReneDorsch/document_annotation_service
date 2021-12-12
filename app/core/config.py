@@ -9,5 +9,5 @@ NAMED_ENTITY_RECOGNITION_MODEL_PATH = os.path.join(CURRENT_DIRECTORY,"files/anno
 CATEGORICAL_LABELS = os.path.join(CURRENT_DIRECTORY,"files/categorical_labels.json")
 UNITS = os.path.join(CURRENT_DIRECTORY,"files/units.json")
 
-
+ANNOTATION_SCORE = 0.9
 
